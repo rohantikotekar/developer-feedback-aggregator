@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Sentiment Analysis</h1>
+        <form method="POST">
+            <label for="github_url">Enter GitHub Repository URL:</label>
+            <input type="text" id="github_url" name="github_url" required>
+            <button type="submit">Analyze</button>
+        </form>
+    
+        {% if sentiment_summary %}
+            <h2>Sentiment Analysis Summary:</h2>
+            <pre>{{ sentiment_summary }}</pre>
+        {% endif %}
+
+    <script src="script.js"></script>
+</body>
+</html>

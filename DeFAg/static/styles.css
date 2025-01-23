@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Main Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container for Content */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Form Styling */
+.form-container {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input {
+    padding: 12px;
+    width: 100%;
+    max-width: 450px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Results Section */
+.results {
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+    background-color: #f1f3f5;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.summary-content {
+    font-size: 16px;
+    color: #495057;
+    line-height: 1.6;
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff; 
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 14px;
+    }
+}

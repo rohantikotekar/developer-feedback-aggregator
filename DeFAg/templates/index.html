@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeFAg</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Developer Feedback Aggregator</h1>
+        <form method="POST" class="form-container">
+            <div class="form-group">
+                <label for="github_url">Enter Public GitHub Repository URL:</label>
+                <input type="text" id="github_url" name="github_url" value="{{ request.form['github_url'] }}" required>
+            </div>
+            <button type="submit">Analyze</button>
+        </form>
+
+        {% if sentiment_summary %}
+            <div class="results">
+                <h2>Sentiment Analysis Summary:</h2>
+                <div class="summary-content">{{ sentiment_summary }}</div>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
