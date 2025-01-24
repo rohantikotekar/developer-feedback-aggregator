@@ -3,6 +3,7 @@
 #### - By using the GitHub API, this application fetches issues, pull requests, and commits from a specified repository, 
 #### - It cleans the data, and performs sentiment analysis on the feedback provided by users and contributors. 
 #### - The insights generated can help developers understand user sentiment, prioritize improvements, and enhance overall productivity.
+#### - The deployed application can be found here:  https://defag-app-final-3f5e97a27639.herokuapp.com/
 
 # Features
 #### - Input GitHub Repository URL: Users provide the URL of the GitHub repository they want to analyze.
@@ -10,7 +11,7 @@
 #### - Clean Data: The fetched data is processed to remove unnecessary content, making it suitable for analysis.
 #### - Perform Sentiment Analysis: The cleaned data undergoes sentiment analysis to categorize feedback into positive, negative, and neutral sentiments.
 #### - Generate Summary: The application generates a summary of the sentiment analysis, providing insights into user feedback.
-#### - The deployed application can be found here:  https://defag-app-final-3f5e97a27639.herokuapp.com/
+
 
 # Installation 
 #### - git clone https://github.com/rohantikotekar/developer-feedback-aggregator.git
