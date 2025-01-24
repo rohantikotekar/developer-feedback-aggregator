@@ -12,7 +12,7 @@
 #### - Generate Summary: The application generates a summary of the sentiment analysis, providing insights into user feedback.
 
 # Installation 
-#### - git clone https://github.com/yourusername/developer-feedback-aggregator.git
+#### - git clone https://github.com/rohantikotekar/developer-feedback-aggregator.git
 #### - cd developer-feedback-aggregator
 #### - python -m venv venv
 #### - source venv/bin/activate  # On Windows use `venv\Scripts\activate`
