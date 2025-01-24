@@ -15,8 +15,7 @@
 #### - git clone https://github.com/rohantikotekar/developer-feedback-aggregator.git
 #### - cd developer-feedback-aggregator
 #### - python -m venv venv
-#### - source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-#### - pip install Flask requests textblob
+#### - source venv/bin/activate
 #### - pip install Flask requests textblob
 #### - python app.py
 
