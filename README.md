@@ -10,6 +10,7 @@
 #### - Clean Data: The fetched data is processed to remove unnecessary content, making it suitable for analysis.
 #### - Perform Sentiment Analysis: The cleaned data undergoes sentiment analysis to categorize feedback into positive, negative, and neutral sentiments.
 #### - Generate Summary: The application generates a summary of the sentiment analysis, providing insights into user feedback.
+#### - The deployed application can be found here:  https://defag-app-final-3f5e97a27639.herokuapp.com/
 
 # Installation 
 #### - git clone https://github.com/rohantikotekar/developer-feedback-aggregator.git
@@ -18,6 +19,7 @@
 #### - source venv/bin/activate
 #### - pip install Flask requests textblob
 #### - python app.py
+
 
 # Benefits for Developers
 #### - Enhanced Understanding: <br> Gain insights into user sentiment regarding your project, helping you understand what users appreciate and what issues they face.
