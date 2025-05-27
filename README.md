@@ -1,9 +1,9 @@
 # Overview
-#### - The Developer Feedback Aggregator is a Flask web application designed to help developers analyze feedback from GitHub repositories. 
-#### - By using the GitHub API, this application fetches issues, pull requests, and commits from a specified repository, 
-#### - It cleans the data, and performs sentiment analysis on the feedback provided by users and contributors. 
-#### - The insights generated can help developers understand user sentiment, prioritize improvements, and enhance overall productivity.
-#### - The deployed application can be found here:  https://defag-app-final-3f5e97a27639.herokuapp.com/
+####  The Developer Feedback Aggregator is a Flask web application designed to help developers analyze feedback from GitHub repositories. 
+####  By using the GitHub API, this application fetches issues, pull requests, and commits from a specified repository, 
+####  It cleans the data, and performs sentiment analysis on the feedback provided by users and contributors. 
+####  The insights generated can help developers understand user sentiment, prioritize improvements, and enhance overall productivity.
+####  The deployed application can be found here:  https://defag-app-final-3f5e97a27639.herokuapp.com/
 
 # Features
 #### - Input GitHub Repository URL: Users provide the URL of the GitHub repository they want to analyze.
