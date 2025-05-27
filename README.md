@@ -4,7 +4,7 @@
 3. It cleans the data, and performs sentiment analysis on the feedback provided by users and contributors. 
 4.  The insights generated can help developers understand user sentiment, prioritize improvements, and enhance overall productivity.
 
-# Feature
+# Features
 1. Input GitHub Repository URL: Users provide the URL of the GitHub repository they want to analyze.
 2. Fetch Data: The application extracts the repository owner and name from the URL and fetches relevant data using the GitHub API.
 3. Clean Data: The fetched data is processed to remove unnecessary content, making it suitable for analysis.
