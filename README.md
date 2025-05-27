@@ -3,7 +3,6 @@
 2. By using the GitHub API, this application fetches issues, pull requests, and commits from a specified repository, 
 3. It cleans the data, and performs sentiment analysis on the feedback provided by users and contributors. 
 4.  The insights generated can help developers understand user sentiment, prioritize improvements, and enhance overall productivity.
-5.  The deployed application can be found here:  https://defag-app-final-3f5e97a27639.herokuapp.com/
 
 # Feature
 1. Input GitHub Repository URL: Users provide the URL of the GitHub repository they want to analyze.
