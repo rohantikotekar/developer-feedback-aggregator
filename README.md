@@ -13,12 +13,24 @@
 
 
 # Installation 
-1. git clone https://github.com/rohantikotekar/developer-feedback-aggregator.git
-2. cd developer-feedback-aggregator
-3. python -m venv venv
-4. source venv/bin/activate
-5. pip install Flask requests textblob
-6. python app.py
+1.  ```bash
+    git clone https://github.com/rohantikotekar/developer-feedback-aggregator.git
+    ```
+
+2.```bash
+  cd developer-feedback-aggregator
+   ```
+3. ```bash
+  python -m venv venv
+  ```
+4.```bash source venv/bin/activate
+      ```
+5. ```bash
+  pip install Flask requests textblob
+  ```
+6. ```bash
+   python app.py
+   ```
 
 
 # Benefits for Developers
